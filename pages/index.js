@@ -30,21 +30,18 @@ export default function Home() {
               <ul className="profile__social">
                 <a
                   href="https://www.instagram.com/"
-                  target="_blank"
                   className="profile__social-link"
                 >
                   <i className="ri-instagram-line" />
                 </a>
                 <a
                   href="https://www.linkedin.com/"
-                  target="_blank"
                   className="profile__social-link"
                 >
                   <i className="ri-linkedin-box-line" />
                 </a>
                 <a
                   href="https://github.com/"
-                  target="_blank"
                   className="profile__social-link"
                 >
                   <i className="ri-github-line" />
@@ -80,7 +77,6 @@ export default function Home() {
                 {/* Insert a real number plus country code */}
                 <a
                   href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
-                  target="_blank"
                   className="button button__small button__gray"
                 >
                   <i className="ri-whatsapp-line" />
@@ -88,7 +84,6 @@ export default function Home() {
                 {/* Insert your brand name or profile */}
                 <a
                   href="https://m.me/bedimcode"
-                  target="_blank"
                   className="button button__small button__gray"
                 >
                   <i className="ri-messenger-line" />
@@ -129,8 +124,8 @@ export default function Home() {
                   <div className="projects__modal">
                     <div>
                       <span className="projects__subtitle">Web</span>
-                      <h3 className="projects__title">Payment Site</h3>
-                      <a href="#" className="projects__button button button__small">
+                      <h3 className="projects__title">A1 Technologist</h3>
+                      <a href="https://a1technologist.vercel.app/" className="projects__button button button__small">
                         <i className="ri-link" />
                       </a>
                     </div>
@@ -144,7 +139,7 @@ export default function Home() {
                   />
                   <div className="projects__modal">
                     <div>
-                      <span className="projects__subtitle">Web</span>
+                      <span className="projects__subtitle">Match Realtor</span>
                       <h3 className="projects__title">Portfolio website</h3>
                       <a href="#" className="projects__button button button__small">
                         <i className="ri-link" />
