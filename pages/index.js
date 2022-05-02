@@ -29,19 +29,19 @@ export default function Home() {
               <h3 className="profile__profession">Web developer</h3>
               <ul className="profile__social">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/adrian_r.solomon/"
                   className="profile__social-link"
                 >
                   <i className="ri-instagram-line" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/adrian-solomon-8b3624219/"
                   className="profile__social-link"
                 >
                   <i className="ri-linkedin-box-line" />
                 </a>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/AdrianRSolomon"
                   className="profile__social-link"
                 >
                   <i className="ri-github-line" />
