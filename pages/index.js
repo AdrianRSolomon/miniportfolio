@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <div className="profile__buttons">
               {/* Insert your CV */}
-              <a download="" href="/pdf/Gianell-Cv.pdf" className="button">
+              <a download="" href="https://drive.google.com/file/d/1BGKlFMvWzju69dHOHH-Cp2LDuZUXHPYh/view?usp=sharing" className="button">
                 Download CV <i className="ri-download-line" />
               </a>
               <div className="profile__buttons-small">
@@ -225,29 +225,13 @@ export default function Home() {
                         <i className="ri-checkbox-circle-line" />
                         <div>
                           <h3 className="skills__name">PHP</h3>
-                          <span className="skills__level">Intermediate</span>
+                          <span className="skills__level">Basic</span>
                         </div>
                       </div>
                       <div className="skills__data">
                         <i className="ri-checkbox-circle-line" />
                         <div>
                           <h3 className="skills__name">MySQL</h3>
-                          <span className="skills__level">Advance</span>
-                        </div>
-                      </div>
-                      <div className="skills__data">
-                        <i className="ri-checkbox-circle-line" />
-                        <div>
-                          <h3 className="skills__name">Firebase</h3>
-                          <span className="skills__level">Intermediate</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skills__group">
-                      <div className="skills__data">
-                        <i className="ri-checkbox-circle-line" />
-                        <div>
-                          <h3 className="skills__name">Python</h3>
                           <span className="skills__level">Basic</span>
                         </div>
                       </div>
@@ -267,7 +251,7 @@ export default function Home() {
         </main>
         {/*=============== FOOTER ===============*/}
         <footer className="footer container">
-          <span className="footer__copy">© Bedimcode. All rigths reserved</span>
+          <span className="footer__copy">© Adrian Solomon. All rigths reserved</span>
         </footer>
 
       {/*=============== SCROLLREVEAL ===============*/}
