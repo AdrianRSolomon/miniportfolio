@@ -76,14 +76,14 @@ export default function Home() {
               <div className="profile__buttons-small">
                 {/* Insert a real number plus country code */}
                 <a
-                  href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
+                  href="https://api.whatsapp.com/send?phone=8683892499&text=Hello, more information!"
                   className="button button__small button__gray"
                 >
                   <i className="ri-whatsapp-line" />
                 </a>
                 {/* Insert your brand name or profile */}
                 <a
-                  href="https://m.me/bedimcode"
+                  href="https://m.me/adrianrandysolomon"
                   className="button button__small button__gray"
                 >
                   <i className="ri-messenger-line" />
