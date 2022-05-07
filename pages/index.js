@@ -123,7 +123,7 @@ export default function Home() {
                   />
                   <div className="projects__modal">
                     <div>
-                      <span className="projects__subtitle">Web</span>
+                      <span className="projects__subtitle">completed project</span>
                       <h3 className="projects__title">A1 Technologist</h3>
                       <a href="https://a1technologist.vercel.app/" className="projects__button button button__small">
                         <i className="ri-link" />
@@ -139,9 +139,9 @@ export default function Home() {
                   />
                   <div className="projects__modal">
                     <div>
-                      <span className="projects__subtitle">Match Realtor</span>
-                      <h3 className="projects__title">Portfolio website</h3>
-                      <a href="#" className="projects__button button button__small">
+                      <span className="projects__subtitle">completed project</span>
+                      <h3 className="projects__title">Match Realtor</h3>
+                      <a href="https://match-realtor.vercel.app/" className="projects__button button button__small">
                         <i className="ri-link" />
                       </a>
                     </div>
@@ -155,9 +155,9 @@ export default function Home() {
                   />
                   <div className="projects__modal">
                     <div>
-                      <span className="projects__subtitle">Movil</span>
-                      <h3 className="projects__title">Fast food app</h3>
-                      <a href="#" className="projects__button button button__small">
+                      <span className="projects__subtitle">Portfolio</span>
+                      <h3 className="projects__title">Adrian Solomon</h3>
+                      <a href="https://adriansolomon-portfolio.vercel.app/" className="projects__button button button__small">
                         <i className="ri-link" />
                       </a>
                     </div>
