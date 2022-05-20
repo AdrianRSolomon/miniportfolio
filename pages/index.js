@@ -114,6 +114,23 @@ export default function Home() {
                 data-content=""
                 id="projects"
               >
+                   <article className="projects__card">
+                  {/* Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) */}
+                  <img
+                    src="/img/coffee4u.png"
+                    alt=""
+                    className="projects__img"
+                  />
+                  <div className="projects__modal">
+                    <div>
+                      <span className="projects__subtitle">completed project</span>
+                      <h3 className="projects__title">Coffee 4U</h3>
+                      <a href="https://coffe4u.company.site/" className="projects__button button button__small">
+                        <i className="ri-link" />
+                      </a>
+                    </div>
+                  </div>
+                </article>
                 <article className="projects__card">
                   {/* Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) */}
                   <img
