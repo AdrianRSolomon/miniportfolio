@@ -114,10 +114,27 @@ export default function Home() {
                 data-content=""
                 id="projects"
               >
+                <article className="projects__card">
+                  {/* Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) */}
+                  <img
+                    src="/img/img-5.svg"
+                    alt=""
+                    className="projects__img"
+                  />
+                  <div className="projects__modal">
+                    <div>
+                      <span className="projects__subtitle">completed project</span>
+                      <h3 className="projects__title">Insightful Active Tracker</h3>
+                      <a href="https://insightful-active-tracker.vercel.app/" className="projects__button button button__small">
+                        <i className="ri-link" />
+                      </a>
+                    </div>
+                  </div>
+                </article>
                    <article className="projects__card">
                   {/* Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) */}
                   <img
-                    src="/img/coffee4u.png"
+                    src="/img/img-4.svg"
                     alt=""
                     className="projects__img"
                   />
@@ -134,7 +151,7 @@ export default function Home() {
                 <article className="projects__card">
                   {/* Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) */}
                   <img
-                    src="/img/a1tech.png"
+                    src="/img/img-3.svg"
                     alt=""
                     className="projects__img"
                   />
@@ -150,7 +167,7 @@ export default function Home() {
                 </article>
                 <article className="projects__card">
                   <img
-                    src="/img/matchrealtor.png"
+                    src="/img/img-2.svg"
                     alt=""
                     className="projects__img"
                   />
@@ -166,7 +183,7 @@ export default function Home() {
                 </article>
                 <article className="projects__card">
                   <img
-                    src="/img/adrianportfolio.png"
+                    src="/img/img-1.svg"
                     alt=""
                     className="projects__img"
                   />
